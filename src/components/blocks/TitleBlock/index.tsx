@@ -22,7 +22,7 @@ export default function TitleBlock(props) {
             )}
             data-sb-field-path={fieldPath}
         >
-            <span {...(fieldPath && { 'data-sb-field-path': '.text' })}>{text}</span>
+            <span EAS Symphony {...(fieldPath && { 'data-sb-field-path': '.text' })}>{text}</span>
         </h2>
     );
 }
